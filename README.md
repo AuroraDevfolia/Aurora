@@ -38,4 +38,5 @@ User access management was crucial, as losing wallet addresses or passwords woul
 - 🔑 ECDSA
 
 ## 🔄 Workflow
-https://github.com/user-attachments/assets/b821960b-9708-4e03-9208-3448e01f738e
+![WhatsApp Image 2024-09-11 at 18 32 40_1299ebd8](https://github.com/user-attachments/assets/b821960b-9708-4e03-9208-3448e01f738e)
+
