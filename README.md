@@ -37,6 +37,56 @@ User access management was crucial, as losing wallet addresses or passwords woul
 - 📁 IPFS
 - 🔑 ECDSA
 
+## 🛠️ Steps to Set Up the Project
+
+Follow these steps to get the project up and running on your local machine:
+
+1. Clone the Repository
+
+git clone https://github.com/your-repo/project-name.git
+cd project-name
+
+2. Install Dependencies
+
+Navigate to the project directory and install the required dependencies:
+
+npm install
+
+3. Set Up Necessary Variables
+
+INFURA_API_KEY=your-infura-api-key
+PRIVATE_KEY=your-wallet-private-key
+IPFS_GATEWAY=your-ipfs-gateway
+
+Replace the placeholders with your actual keys and values.
+4. Compile the Smart Contracts
+
+Compile the smart contracts using Hardhat:
+
+npx hardhat compile
+
+5. Deploy the Smart Contracts
+
+Deploy the contracts to the desired network (e.g., Polygon zkEVM):
+
+npx hardhat ignition deploy ignition/modules/Lock.js --network zkEVM  --deployment-id <DeploymentId>    
+
+6. Run the Frontend
+
+Start the frontend application:
+
+npm run dev
+
+On both the react apps
+
+7. Interact with the Application
+
+    Open your browser and navigate to http://localhost:5173 & 5154.
+    Connect your MetaMask wallet to interact with the smart contracts.
+    Start uploading and verifying documents through the decentralized platform!
+
 ## 🔄 Workflow
 ![WhatsApp Image 2024-09-11 at 18 32 40_1299ebd8](https://github.com/user-attachments/assets/b821960b-9708-4e03-9208-3448e01f738e)
+![WhatsApp Image 2024-10-08 at 10 08 08_811cf635](https://github.com/user-attachments/assets/67d086be-0ad0-47e6-9fe7-ff8f11006d80)
+![WhatsApp Image 2024-10-08 at 10 08 08_879b3a30](https://github.com/user-attachments/assets/2074c084-b73a-41fb-b323-a215114eab05)
 
