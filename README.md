@@ -36,6 +36,9 @@ User access management was crucial, as losing wallet addresses or passwords woul
 - 🛡️ Polygon
 - 📁 IPFS
 - 🔑 ECDSA
+- 🌐 Flask
+- 🔍 OCR
+- ⛓️ Ethereum
 
 ### 🛠️ Steps to Set Up the Project
 
