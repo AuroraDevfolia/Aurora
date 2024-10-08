@@ -37,41 +37,41 @@ User access management was crucial, as losing wallet addresses or passwords woul
 - 📁 IPFS
 - 🔑 ECDSA
 
-## 🛠️ Steps to Set Up the Project
+### 🛠️ Steps to Set Up the Project
 
 Follow these steps to get the project up and running on your local machine:
 
-1. Clone the Repository
+##1. Clone the Repository
 
 git clone https://github.com/your-repo/project-name.git
 cd project-name
 
-2. Install Dependencies
+##2. Install Dependencies
 
 Navigate to the project directory and install the required dependencies:
 
 npm install
 
-3. Set Up Necessary Variables
+##3. Set Up Necessary Variables
 
 INFURA_API_KEY=your-infura-api-key
 PRIVATE_KEY=your-wallet-private-key
 IPFS_GATEWAY=your-ipfs-gateway
 
 Replace the placeholders with your actual keys and values.
-4. Compile the Smart Contracts
+##4. Compile the Smart Contracts
 
 Compile the smart contracts using Hardhat:
 
 npx hardhat compile
 
-5. Deploy the Smart Contracts
+##5. Deploy the Smart Contracts
 
 Deploy the contracts to the desired network (e.g., Polygon zkEVM):
 
 npx hardhat ignition deploy ignition/modules/Lock.js --network zkEVM  --deployment-id <DeploymentId>    
 
-6. Run the Frontend
+##6. Run the Frontend
 
 Start the frontend application:
 
@@ -79,7 +79,7 @@ npm run dev
 
 On both the react apps
 
-7. Interact with the Application
+##7. Interact with the Application
 
     Open your browser and navigate to http://localhost:5173 & 5154.
     Connect your MetaMask wallet to interact with the smart contracts.
